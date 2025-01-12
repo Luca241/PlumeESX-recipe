@@ -2,7 +2,7 @@ $engine: 3
 $onesync: legacy
 name: PlumeESXLegacy
 version: 3.3.0
-author: Tabarra & SaltySea
+author: Tabarra & SaltySea / Edit by Nemesus.de
 description: A full featured and highly configurable yet lightweight ESX Legacy base that can be easily extended. 
 
 tasks:
@@ -71,11 +71,6 @@ tasks:
     src: https://github.com/Blumlaut/EasyAdmin
     ref: 776ac8f3898182e5c075d533bbd89e92efa017e9
     dest: ./resources/EasyAdmin
-
-  - action: download_github
-    src: https://github.com/thelindat/mdt
-    ref: 0c804de3cd497d70d8ae76bf1699d76d4c9d94fc
-    dest: ./resources/mdt
 
   - action: download_github
     src: https://github.com/DevTestingPizza/vSync
